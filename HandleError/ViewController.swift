@@ -14,7 +14,7 @@ enum StudentError: Error {
 }
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,18 +26,18 @@ class ViewController: UIViewController {
         {
             print(error)
         }
-
         
-
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     
- 
     
-
-
+    
+    
+    
 }
 class Student {
     var name: String?
